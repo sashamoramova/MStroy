@@ -74,10 +74,4 @@ export class TreeStore implements TreeStoreInterface {
     return buildTree(this.items);
   }
 
-  // Добавьте метод:
-  // getRootItems(): TreeItem[] {
-  //   return this.items.filter(
-  //     (item) => item.parent === null || item.parent === undefined
-  //   );
-  // }
 }
